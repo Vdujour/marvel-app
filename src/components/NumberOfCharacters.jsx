@@ -1,4 +1,4 @@
-function NumberOfCharacters({ list }) {
+function NumberOfCharacters({ list = [] }) {
 
     if (list.length === 0) {
   return (

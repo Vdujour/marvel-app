@@ -1,12 +1,12 @@
-function CharactersList({ list }) {
+function CharactersList({ list = [] }) {
 
-  const items = list.map((character) => (<li key={character.id}>{character.name}</li>));
-  
+  const characters = list.map((character) => (<li key={character.id}>{character.name}</li>));
+
   return (
     <ul>
-      {items}
+      {characters}
     </ul>
   );
 }
 
-export default CharactersList;
+export default CharactersList;  
