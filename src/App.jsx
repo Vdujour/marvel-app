@@ -1,18 +1,16 @@
 import './App.css'
-import characters from './data/characters.json';
+import characters from './data/characters.json'
+import CharactersList from './components/CharactersList.jsx';
 
 function App() {
 
-  const characterList = characters.map((character) => (<li key={character.id}>{character.name}</li>));
-  
   return (
     <div>
       <h1>Hello World from react with JSX</h1>
-      <ul>
-        {characterList}
-      </ul>
+      <CharactersList list={characters} />
     </div>
   );
 }
 
 export default App;
+
