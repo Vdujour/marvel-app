@@ -6,13 +6,13 @@ function AboutPage() {
     }, []);
 
   return (
-    <>
-    <header>
-        <h2>About us</h2>
-    </header>
-    
-    <p>We are a team of marvel fans who loves to create awesome apps !</p>
-    </>
+    <div>
+        <header>
+            <h2>About us</h2>
+        </header>
+
+        <p>We are a team of marvel fans who loves to create awesome apps !</p>
+    </div>
   );
 }
 

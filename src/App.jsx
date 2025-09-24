@@ -2,8 +2,9 @@ import './App.css'
 import characters from './data/characters.json'
 import CharactersList from './components/CharactersList.jsx'
 import NumberOfCharacters from './components/NumberOfCharacters.jsx' 
-import AboutPage from './pages/about.jsx';
-import ContactPage from './pages/contact.jsx';
+import AboutPage from './pages/about.jsx'
+import ContactPage from './pages/contact.jsx'
+import CharactersPage from './pages/characters.jsx';
 
 /*
 function App() {
@@ -25,12 +26,21 @@ function App() {
     </>
   );
 }*/
-
+/*
 function App() {
 
   return (
     <>
       <ContactPage />
+    </>
+  );
+}*/
+
+function App() {
+
+  return (
+    <>
+      <CharactersPage />
     </>
   );
 }
