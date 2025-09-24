@@ -1,4 +1,6 @@
-const Layout = ({ children }) => {
+import { Outlet } from "react-router";
+
+const Layout = () => {
     return (
         <>
             <header>
@@ -10,7 +12,7 @@ const Layout = ({ children }) => {
                 </nav>
             </header>
             <main>
-                {children}
+                <Outlet/>
             </main>
             <footer>
                 <p>Marvel App - 2025</p>
