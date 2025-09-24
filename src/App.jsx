@@ -1,10 +1,11 @@
 import './App.css'
-import characters from './data/characters.json'
+/*import characters from './data/characters.json'
 import CharactersList from './components/CharactersList.jsx'
-import NumberOfCharacters from './components/NumberOfCharacters.jsx' 
+import NumberOfCharacters from './components/NumberOfCharacters.jsx'*/
 import AboutPage from './pages/about.jsx'
 import ContactPage from './pages/contact.jsx'
-import CharactersPage from './pages/characters.jsx';
+import CharactersPage from './pages/characters.jsx'
+import HomePage from './pages/home.jsx';
 
 /*
 function App() {
@@ -35,7 +36,7 @@ function App() {
     </>
   );
 }*/
-
+/*
 function App() {
 
   return (
@@ -43,8 +44,16 @@ function App() {
       <CharactersPage />
     </>
   );
-}
+}*/
 
+function App() {
+
+  return (
+    <>
+      <HomePage />
+    </>
+  );
+}
 
 export default App;
 
