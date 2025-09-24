@@ -11,7 +11,7 @@ function ContactPage() {
         <h2>Contact Us</h2>
       </header>
 
-      <p>Feel free to contact us at : <a>contact@marvelapp.com</a></p>
+      <p>Feel free to contact us at : <a href="mailto:contact@marvelapp.com">contact@marvelapp.com</a></p>
     </div>
   );
 }
