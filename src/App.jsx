@@ -6,51 +6,21 @@ import AboutPage from './pages/about.jsx'
 import ContactPage from './pages/contact.jsx'
 import CharactersPage from './pages/characters.jsx'
 import HomePage from './pages/home.jsx';
+import Layout from './layout.jsx'
+import { BrowserRouter, Route, Routes } from "react-router";
 
-/*
 function App() {
-
-  return (
-    <div>
-      <h1>Hello World from react with JSX</h1>
-      <CharactersList list={characters} />
-      <NumberOfCharacters list={characters} />
-    </div>
-  );
-}*/
-/*
-function App() {
-
   return (
     <>
-      <AboutPage />
-    </>
-  );
-}*/
-/*
-function App() {
-
-  return (
-    <>
-      <ContactPage />
-    </>
-  );
-}*/
-/*
-function App() {
-
-  return (
-    <>
-      <CharactersPage />
-    </>
-  );
-}*/
-
-function App() {
-
-  return (
-    <>
-      <HomePage />
+      <Layout>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<CharactersPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </BrowserRouter>
+      </Layout>
     </>
   );
 }
