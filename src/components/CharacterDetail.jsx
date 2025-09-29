@@ -29,8 +29,6 @@ const CharacterDetail = ({ character }) => {
             <div className="character-info">
                 <h3>{character.name}</h3>
                 
-                <p><strong>ID:</strong> {character.id}</p>
-                
                 {character.description && character.description.trim() !== "" && (
                     <div className="character-description">
                         <h4>Description:</h4>
