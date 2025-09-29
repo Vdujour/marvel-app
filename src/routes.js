@@ -3,6 +3,8 @@ import CharactersPage from './pages/characters.jsx';
 import ContactPage from './pages/contact.jsx';
 import Layout from './layout.jsx';
 import NotFoundPage from './pages/notFound.jsx';
+import { getCharacters } from './api/characters-api.js';
+
 
 // routes of the application
 const routes = [
@@ -13,7 +15,8 @@ const routes = [
       {
         // main page
         index: true,
-        Component: CharactersPage
+        Component: CharactersPage,
+        loader: () => getCharacters()
       },
       {
         // about page
