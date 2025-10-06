@@ -17,7 +17,7 @@ const CharactersPage = () => {
         
         <CharactersList list={characters} />
         <br />
-        <NumberOfCharacters list={characters} />
+        <NumberOfCharacters characters={characters} />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import AboutPage from './pages/about.jsx';
-import CharactersPage from './pages/characters.jsx';
+import CharactersPage from './pages/CharactersPage.jsx';
 import CharacterDetailPage from './pages/characterDetailPage.jsx';
 import ContactPage from './pages/contact.jsx';
 import Layout from './layout.jsx';
