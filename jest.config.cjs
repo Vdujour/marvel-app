@@ -1,6 +1,6 @@
 module.exports = {
-transform: {
-"^.+\\.jsx?$": "babel-jest"
-,
-},
+    testEnvironment: "jest-fixed-jsdom", // Use jsdom environment for testing React components
+    transform: {
+        "^.+\\.jsx?$": "babel-jest"
+    },
 };
