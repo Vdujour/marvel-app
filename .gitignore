@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignorer le dossier coverage
-coverage
+# Ignorer le dossier coverage et tout son contenu
+coverage/
+coverage/*
