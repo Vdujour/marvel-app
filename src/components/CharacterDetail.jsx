@@ -40,7 +40,7 @@ const CharacterDetail = ({ character }) => {
                     <p><strong>Dernière modification:</strong> {new Date(character.modified).toLocaleDateString('fr-FR')}</p>
                 )}
                 
-                {!character.description || character.description.trim() === "" && (
+                {(!character.description || character.description.trim() === "") && (
                     <p className="no-description">Aucune description disponible pour ce personnage.</p>
                 )}
             </div>

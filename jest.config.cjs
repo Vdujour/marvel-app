@@ -7,4 +7,5 @@ module.exports = {
   collectCoverageFrom: [
     "src/**/*.{js,jsx}", // Collect coverage from all js or jsx files in src folder
   ],
+  setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'], // Setup file for additional matchers
 };

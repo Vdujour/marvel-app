@@ -1,4 +1,4 @@
-import CharactersPage from './characters.jsx';
+import CharactersPage from './CharactersPage.jsx';
 import { useEffect } from 'react';
 
 function HomePage() {
