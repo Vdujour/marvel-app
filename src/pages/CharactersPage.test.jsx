@@ -17,7 +17,8 @@ jest.mock('react-router-dom', () => ({
         }
     ],
     Link: ({ to, children }) => <a href={to}>{children}</a>,
-    NavLink: ({ to, children }) => <a href={to}>{children}</a>
+    NavLink: ({ to, children }) => <a href={to}>{children}</a>,
+    useSearchParams: () => [new URLSearchParams({ orderBy: 'name', order: 'asc' }), jest.fn()]
 }));
 
 test('render CharactersPage component', () => {
